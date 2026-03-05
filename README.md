@@ -17,6 +17,8 @@ Workspace created
 
  
 Medallion Architecture followed and schemas created and loaded accordingly
+ <img width="205" height="235" alt="image" src="https://github.com/user-attachments/assets/0886982e-c796-4371-8df5-683ba4e313e5" />
+
  
 Initial Parent company data directly loaded into gold schema
 df_costumers = spark.read.format("csv").option("header", "true").option("inferSchema", "true").load("/Volumes/consumer_goods/files/input_data_files/parent_data/dim_customers.csv")
@@ -28,7 +30,9 @@ df_gross_price = spark.read.format("csv").option("header", "true").option("infer
 and so on
 Child data processing
 Widgets created and used  
- 
+ <img width="481" height="229" alt="image" src="https://github.com/user-attachments/assets/fbd6741a-19b6-47f4-8a48-df4521f7460a" />
+<img width="544" height="215" alt="image" src="https://github.com/user-attachments/assets/487a971c-d1a4-43ae-b656-2df55a3f32e9" />
+
 Multiple transformations done
 •	Checking for duplicates
 •	Trimming data
@@ -87,21 +91,21 @@ Data loaded in final parent company data
 
 Jobs/Pipelines created for dimension loading
  
+<img width="509" height="313" alt="image" src="https://github.com/user-attachments/assets/686c3809-2f0d-42ec-829a-2706c335030c" />
 
 
 Fact processing done at file trigger
 Job triggered when file is available in location
- 
+ <img width="461" height="394" alt="image" src="https://github.com/user-attachments/assets/21961cb4-d735-4d6c-8b4b-9d51f6468ff8" />
+
 
 Genie feature utilized 
  
 
-
-
-
-
+<img width="602" height="161" alt="image" src="https://github.com/user-attachments/assets/78017b9c-7863-40ce-bc46-1638e9c06d3d" />
 
 
 Consolidated view created for Dashboard
 Final Dashboard created
- 
+ <img width="602" height="345" alt="image" src="https://github.com/user-attachments/assets/c56f02c7-a787-4802-868c-fb29526dbc73" />
+
